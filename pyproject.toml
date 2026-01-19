@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=64.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "networksecurity"
+version = "0.0.1"
+description = "Network Security MLOps Package"
+authors = [
+    {name = "kaushal prajapati", email = "kaushalprajapati5296@gmail.com"}
+]
+requires-python = ">=3.8"
+dependencies = [
+    "python-dotenv",
+    "pandas",
+    "numpy",
+    "pymongo",
+    "certifi",
+    "pymongo[srv]",
+    "scikit-learn",
+    "dill",
+    "pyyaml",
+    "xgboost",
+    "fastapi",
+    "uvicorn",
+    "ipykernel",
+    "apache-airflow",
+    "mlflow",
+    "dvc",
+    "jinja2",
+    "python-multipart",
+]
+
+[tool.setuptools.packages.find]
+# Automatically discover packages (equivalent to find_packages() in setup.py)
+
